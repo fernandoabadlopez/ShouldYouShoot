@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 24
+  productName: ShouldYouShoot
+  companyName: ShouldYouShootDev
+  defaultScreenWidth: 1920
+  defaultScreenHeight: 1080
+  defaultScreenOrientation: 4
+  targetDevice: 2
+  useOnDemandResources: 0
+  accelerometerFrequency: 60
+  muteOtherAudioSources: 0
+  requiresPersistentWiFi: 0
+  enableInternalProfiler: 0
+  actionOnDotNetUnhandledException: 1
+  logObjCUncaughtExceptions: 1
+  enableCrashReportAPI: 0
+  buildNumber:
+    iPhone: 0
+    tvOS: 0
+  cameraUsageDescription: "Required for Augmented Reality mode"
+  locationUsageDescription: ""
+  microphoneUsageDescription: ""
+  applicationIdentifier:
+    Android: com.shouldyoushoot.game
+    iPhone: com.shouldyoushoot.game
+    Standalone: com.shouldyoushoot.game
+  buildTarget: Android
+  activeInputHandler: 1
+  use32BitDisplayBuffer: 1
+  preserveFramebufferAlpha: 0
+  MTRendering: 1
+  packageName: com.shouldyoushoot.game
+  XRSettings:
+    playerTrackingMode: 1
+    depthFormat: 0
+    useOcclusionMesh: 1
+    renderingPath: 0
+    mirrorViewMode: 4
+    enabledDevices: []

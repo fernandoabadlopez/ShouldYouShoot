@@ -1,0 +1,176 @@
+{
+  "Characters": [
+    {
+      "Id": "hitler_vienna_1913",
+      "Name": "Adolf Hitler",
+      "EncounterContext": "Vienna, Austria — 1913",
+      "EncounterDescription": "A 24-year-old aspiring painter, rejected twice by the Vienna Academy of Fine Arts. He sells watercolour postcards to survive and spends his evenings in coffee houses debating politics.",
+      "HistoryIfSpared": "Hitler goes on to serve in World War I, joins the Nazi Party, rises to power in 1933, and orchestrates the Holocaust — the systematic murder of six million Jews and millions of others.",
+      "OutcomeIfShot": "A young vagrant artist is killed. The future of World War II and the Holocaust is uncertain — but this specific architect of genocide never comes to power.",
+      "OutcomeIfSpared": "You lower your weapon. The artist continues selling postcards. Years from now, history will not be kind to your hesitation.",
+      "ShootingIsCorrectChoice": true,
+      "CorrectDecisionPoints": 100,
+      "IncorrectDecisionPoints": 200,
+      "PrefabResourceName": "Prefabs/Characters/Hitler_1913",
+      "ContextClues": [
+        "He has been rejected by art school twice.",
+        "His rhetoric is increasingly anti-Semitic.",
+        "He idolises figures who used violence to reshape nations.",
+        "He has written extensively about racial 'purity' in private notebooks."
+      ]
+    },
+    {
+      "Id": "gandhi_london_1889",
+      "Name": "Mohandas Gandhi",
+      "EncounterContext": "London, England — 1889",
+      "EncounterDescription": "A shy 20-year-old law student from India, recently arrived in England. He is nervous, homesick, and spending most of his time reading about vegetarianism and religion.",
+      "HistoryIfSpared": "Gandhi returns to India, leads the non-violent independence movement, inspires civil rights leaders worldwide, and is recognised as one of history's greatest moral philosophers.",
+      "OutcomeIfShot": "A timid foreign student is murdered. India's independence movement is delayed by decades. Non-violent resistance as a political strategy loses its most powerful champion.",
+      "OutcomeIfSpared": "You holster your weapon. The student continues his studies. He will one day free a nation without firing a single shot.",
+      "ShootingIsCorrectChoice": false,
+      "CorrectDecisionPoints": 150,
+      "IncorrectDecisionPoints": 300,
+      "PrefabResourceName": "Prefabs/Characters/Gandhi_1889",
+      "ContextClues": [
+        "He is writing letters to his mother about missing home.",
+        "He is deeply committed to non-violence even at this young age.",
+        "He is studying law to help the oppressed in his homeland.",
+        "He has shown no interest in violent politics whatsoever."
+      ]
+    },
+    {
+      "Id": "mao_paris_1920",
+      "Name": "Mao Zedong",
+      "EncounterContext": "Paris, France — 1920",
+      "EncounterDescription": "A 26-year-old Chinese intellectual on a work-study program in France. He is passionate about Marxist theory, debating fellow students in cafés about the future of China.",
+      "HistoryIfSpared": "Mao returns to China, founds the People's Republic, and his policies — including the Great Leap Forward and Cultural Revolution — lead to an estimated 30–55 million deaths.",
+      "OutcomeIfShot": "A passionate young intellectual is killed in Paris. China's communist revolution takes a very different path. The Cultural Revolution may never happen.",
+      "OutcomeIfSpared": "You spare the young philosopher. He boards his ship back to China, carrying ideas that will reshape — and devastate — the world's most populous nation.",
+      "ShootingIsCorrectChoice": true,
+      "CorrectDecisionPoints": 100,
+      "IncorrectDecisionPoints": 200,
+      "PrefabResourceName": "Prefabs/Characters/Mao_1920",
+      "ContextClues": [
+        "He is openly calling for violent revolution.",
+        "He believes the ends justify any means.",
+        "He speaks of purging 'class enemies' with disturbing enthusiasm.",
+        "He has already shown a willingness to betray former allies."
+      ]
+    },
+    {
+      "Id": "curie_warsaw_1880",
+      "Name": "Marie Curie",
+      "EncounterContext": "Warsaw, Poland — 1880",
+      "EncounterDescription": "A 13-year-old gifted student at a private school in Warsaw. She is reading science books by candlelight, determined to pursue a university education despite restrictions on women.",
+      "HistoryIfSpared": "Marie Curie becomes the first woman to win a Nobel Prize, wins a second in a different scientific field, and her discoveries in radioactivity save millions of lives through cancer treatment.",
+      "OutcomeIfShot": "A brilliant child is murdered. Radioactivity research is delayed. The development of radiation therapy for cancer — and potentially nuclear energy — is set back by decades.",
+      "OutcomeIfSpared": "You could not do it. A child who will change the world continues reading by candlelight.",
+      "ShootingIsCorrectChoice": false,
+      "CorrectDecisionPoints": 150,
+      "IncorrectDecisionPoints": 300,
+      "PrefabResourceName": "Prefabs/Characters/Curie_1880",
+      "ContextClues": [
+        "She is 13 years old.",
+        "She has harmed no one and intends no harm.",
+        "Her future discoveries will save millions of lives.",
+        "She is reading a textbook about physics."
+      ]
+    },
+    {
+      "Id": "polpot_paris_1953",
+      "Name": "Pol Pot",
+      "EncounterContext": "Paris, France — 1953",
+      "EncounterDescription": "A 25-year-old Cambodian student in Paris, studying radio electronics on a scholarship. He has become immersed in radical Marxist circles and is developing an extreme agrarian ideology.",
+      "HistoryIfSpared": "Pol Pot returns to Cambodia, leads the Khmer Rouge, and between 1975–1979 oversees the genocide of an estimated 1.7–2.5 million people — roughly a quarter of Cambodia's population.",
+      "OutcomeIfShot": "A foreign student is killed in Paris. Cambodia's genocide does not happen in this form. Roughly two million lives are spared.",
+      "OutcomeIfSpared": "You spare the student. He returns to Cambodia with murderous utopian dreams. The killing fields will bear witness to your hesitation.",
+      "ShootingIsCorrectChoice": true,
+      "CorrectDecisionPoints": 100,
+      "IncorrectDecisionPoints": 200,
+      "PrefabResourceName": "Prefabs/Characters/PolPot_1953",
+      "ContextClues": [
+        "He is writing manifestos calling for the violent elimination of the educated class.",
+        "He believes cities should be emptied by force.",
+        "He has stated that money, markets, and formal education must be destroyed.",
+        "He is radicalising other Cambodian students."
+      ]
+    }
+  ],
+  "Dilemmas": [
+    {
+      "Id": "dilemma_hitler_1913",
+      "CharacterId": "hitler_vienna_1913",
+      "Title": "The Artist Who Would Be Tyrant",
+      "ScenarioText": "You are standing in a cold Viennese street. A young man in a threadbare coat is offering watercolour postcards of city landmarks for a few coins. He is unknown, unimportant — by any measure, a failure. But you have seen what history records of him.",
+      "DecisionTimeLimit": 60,
+      "ProgressiveHints": [
+        "This man has been rejected by art school twice. He blames 'the Jews' for his failures.",
+        "His private notebooks reveal increasingly violent and racist ideology.",
+        "If allowed to live, he will attempt to conquer Europe and orchestrate the systematic murder of six million people.",
+        "He is currently harmless. He has committed no crime. He is 24 years old."
+      ],
+      "PhilosophicalQuestion": "Is it morally permissible to kill someone for crimes they have not yet committed — but almost certainly will?",
+      "ThoughtfulEngagementBonus": 25
+    },
+    {
+      "Id": "dilemma_gandhi_1889",
+      "CharacterId": "gandhi_london_1889",
+      "Title": "The Quiet Student",
+      "ScenarioText": "A young Indian student clutches his law books outside his London boarding house. He looks nervous and out of place. You know his name, and you know that some will one day call him the greatest man of the 20th century.",
+      "DecisionTimeLimit": 60,
+      "ProgressiveHints": [
+        "He is 20 years old and has never harmed anyone.",
+        "He is studying law because he wants to defend the oppressed.",
+        "His future philosophy of non-violent resistance will inspire Martin Luther King Jr., Nelson Mandela, and countless others.",
+        "Killing him would eliminate one of humanity's most powerful advocates for peace."
+      ],
+      "PhilosophicalQuestion": "If you can save no lives by pulling the trigger — only end a great one — is there any justification at all?",
+      "ThoughtfulEngagementBonus": 30
+    },
+    {
+      "Id": "dilemma_mao_1920",
+      "CharacterId": "mao_paris_1920",
+      "Title": "The Revolutionary in the Café",
+      "ScenarioText": "A young Chinese man argues passionately with friends at a Parisian café table, stabbing the air with his finger to make a point about revolution. He is brilliant, charismatic, and utterly certain he is right about everything.",
+      "DecisionTimeLimit": 60,
+      "ProgressiveHints": [
+        "He is openly calling for violent revolution against 'class enemies'.",
+        "His future policies will cause the deaths of 30 to 55 million people.",
+        "He is currently in France — far from power and completely harmless.",
+        "He has not yet committed any act of violence himself."
+      ],
+      "PhilosophicalQuestion": "Does the certainty of future mass atrocities justify present-day execution without trial?",
+      "ThoughtfulEngagementBonus": 25
+    },
+    {
+      "Id": "dilemma_curie_1880",
+      "CharacterId": "curie_warsaw_1880",
+      "Title": "The Child Scientist",
+      "ScenarioText": "A teenage girl reads by candlelight in Warsaw. She is the top of her class and dreams of studying science at a university that won't admit women. She is nothing but potential.",
+      "DecisionTimeLimit": 45,
+      "ProgressiveHints": [
+        "She is 13 years old.",
+        "She will win two Nobel Prizes — the only person in history to do so in two different sciences.",
+        "Her research on radioactivity will lead directly to cancer-treating radiation therapy.",
+        "She poses zero threat to anyone."
+      ],
+      "PhilosophicalQuestion": "Can there ever be a moral justification for shooting a child who has done no wrong?",
+      "ThoughtfulEngagementBonus": 30
+    },
+    {
+      "Id": "dilemma_polpot_1953",
+      "CharacterId": "polpot_paris_1953",
+      "Title": "The Student with Blood on Tomorrow's Hands",
+      "ScenarioText": "A soft-spoken Cambodian student sits in a Paris library, surrounded by books on Marxist theory. He is unfailingly polite to everyone he meets. In twenty years, he will be the architect of one of the 20th century's worst genocides.",
+      "DecisionTimeLimit": 60,
+      "ProgressiveHints": [
+        "His ideology explicitly calls for the extermination of the educated and the urban population.",
+        "Roughly one quarter of Cambodia's population will die under his rule.",
+        "He is currently a student writing academic essays. He has committed no crime.",
+        "Multiple people in his circle have already tried to moderate his views and failed."
+      ],
+      "PhilosophicalQuestion": "When someone is polite, harmless, and present — but monstrous in the future — where does moral responsibility begin?",
+      "ThoughtfulEngagementBonus": 25
+    }
+  ]
+}
